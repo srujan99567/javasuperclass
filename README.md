@@ -42,3 +42,24 @@ class C extends B
 		System.out.println("a="+a+"b="+b+"c="+c+"d="+d);
 	}
 }
+class Superclass1
+{
+	public static void main(String args[])
+	{
+		A sr = new A();
+		B ku = new B();
+		C aw = new C();
+		
+		sr.sup(10,20);
+		sr.displayab();
+		ku.sup(15,20);
+		ku.displayab();
+		ku.sub(10,20,30);
+		ku.displayabc();
+		aw.awm(1,2,3,4);
+		aw.displayabcd();
+		aw.sub(3,4,5);
+		aw.displayabc();
+
+	}
+}
